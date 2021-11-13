@@ -1,5 +1,5 @@
-const totalPrice = document.querySelector('#price');
-const totalItems = document.querySelector('#total-count');
+const totalPrice = document.querySelector('#total-price');
+const totalItems = document.querySelector('#total-items');
 
 const itemPrices = {
     'apple': 2,
