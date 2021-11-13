@@ -12,84 +12,67 @@ body {
     padding: 2rem;
 
     background: #94b2e3;
-
-    
-    border-bottom: 3px solid black;
 }
 
 .nav-item {
     font-size: 1.5rem;
-    flex: 1;
-
-    text-align: center;
 }
 
 #logo {
+    font-weight: bold;
     font-size: 2rem;
-    flex: 2;
-    font-weight: 600;
 }
 
 #banner {
     background: linear-gradient(45deg, blue, red);
-
-    height: 10rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 2rem;
 }
 
 .banner-text {
-    color: #ffffff;
-}
+    color: white;
+    font-size: 1.5rem;
 
-#banner-title {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-#cart {
-    padding: 2rem;
     text-align: center;
 }
 
-#total-count, #price {
+#banner-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#cart {
+    text-align: center;
+    
+    margin: 2rem;
+}
+
+#total-items, #total-price {
     font-weight: bold;
 }
 
 #items {
-    width: 80%;
-
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .item {
-    display: flex;
-    flex-direction: row;
-    
-    height: 12rem;
-
     border: 3px solid black;
     border-radius: 10px;
 
-    margin-bottom: 2rem;
+    display: flex;
+    height: 12rem;
+
+    margin-bottom: 1rem;
 }
 
 .item-image {
     padding: 1rem;
 }
 
-.item-image > img {
-    height: 100%;
-}
-
 .item-description {
-    padding: 1rem;
-
     flex: 1;
+
+    padding: 1rem;
 }
 
 .item-name {
@@ -102,15 +85,10 @@ body {
 }
 
 .item-button {
-    text-align: center;
     padding: 1rem;
-
-    width: 8rem;
 }
 
 .item-button > button {
     font-size: 1.2rem;
     font-family: 'Inter', sans-serif;
 }
-
-
